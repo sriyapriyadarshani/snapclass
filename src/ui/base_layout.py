@@ -31,9 +31,15 @@ def style_base_layout():
     
     st.markdown("""
         <style>
+          /*Hide Top Bar of streamlit */
+                
+               #MainMenu,footer,header{
+                    visibility: hidden;
+                }
 
-                .stApp {
-                    background: #5865F2    !importance;
+                .block-container{
+                    padding-top:1.5rem  !important;
+                    
                 }
 
         </style>            
