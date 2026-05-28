@@ -61,13 +61,13 @@ def teacher_screen_register():
 
     st.space()
     st.space()
-    teacher_username=st.text_input("Enter username",placeholder='ananyaroy')
+    teacher_username=st.text_input("Enter username",placeholder='ananyaroy',key="teacher_username")
 
-    teacher_name=st.text_input("Enter name",placeholder='Ananya Roy')
+    teacher_name=st.text_input("Enter name",placeholder='Ananya Roy',key="teacher_name")
 
-    teacher_pass= st.text_input("Enter password",type='password',placeholder="Enter password")
+    teacher_pass= st.text_input("Enter password",type='password',placeholder="Enter password",key="teacher_pass")
 
-    teacher_pass_confirm= st.text_input("Confirm your password",type='password',placeholder="Enter password")
+    teacher_pass_confirm= st.text_input("Confirm your password",type='password',placeholder="Enter password",key="teacher_pass_confirm")
     
     st.divider()
     
