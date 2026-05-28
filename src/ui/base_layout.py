@@ -8,7 +8,7 @@ def style_background_home():
                 .stApp {
                     background: #5865F2    !important;
                 }
-                .stApp div[data-testid="stColumn]{
+                .stApp div[data-testid="stColumn"]{
                 background-color:#E0E3FF !important;
                 padding:2.5rem !important;
                 border-radius: 5rem !important;
@@ -45,7 +45,7 @@ def style_base_layout():
                 }
 
                 .block-container{
-                    padding-top:1.5rem  !important;
+                   padding-top:1.5rem  !important;
                     
                 }
 
